@@ -20,7 +20,7 @@ public class HelloController {
         return "API running -" + LocalDate.now().toString();
     }
 
-    @GetMapping("/goodbye")
-    public String goodbye() { return "Goodbye from Spring Boot!";}
+    @GetMapping("/goodnight")
+    public String goodnight() { return "Goodbye from Spring Boot!";}
 
 }
